@@ -1,4 +1,5 @@
-# JoshBlazer
+# Blazer
+## Software Engineer 
 Hey there! 👋
 I'm Josh, a software developer by day, bug hunter by night. I write code that usually works, and when it doesn’t, I call it “experimental features.”
 
