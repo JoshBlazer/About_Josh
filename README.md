@@ -1,27 +1,47 @@
 # Blazer
-## Software Engineer 
-Hey there! 👋
-I'm Josh, a software developer by day, bug hunter by night. I write code that usually works, and when it doesn’t, I call it “experimental features.”<br>
 
-About Me:<br>
-🌱  Currently learning C# and Angular.js —or at least pretending to.<br>
-🚀  I’m looking to collaborate on any Javascript related project.<br>
-💬 Ask me about backend development, API design and vanilla Javascript. I promise I won't just Google the answer... probably<br>
-📫 How to reach me: joshblazerwillie@gmail.com<br>
-⚡ Fun fact: I once solved a bug by adding a semicolon. <br>
 
-## 🛠️ Skills
+# Hi, I'm Josh 👋
 
-<p align="left">
-  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=%2320232A" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/SQL-%2300f.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
-</p> 
+**Full-stack & systems engineer.** I build and ship across the TypeScript ecosystem, cloud infrastructure, and web3 — from startup MVPs to production distributed systems.
 
-Interests:<br>
-Exploring new technologies, occasionally over-optimizing things for fun.<br>
-Contributing to open-source projects.<br>
-Continuous learning, mostly so I can fix what I broke yesterday.
+I care about clean, maintainable code, security by default, and software that holds up under real load.
 
+- 🔭 Building distributed systems in **Go** and **Rust**, and going deeper on **web3** (Rust smart contracts, ZK proofs)
+- 🌍 Based in Nigeria (**UTC+1**) · open to **remote roles** and **freelance**
+- 📫 Reach me: **joshblazerwillie@gmail.com**
+- 🔗 [Portfolio](https://joshblazer.vercel.app) · [LinkedIn](https://linkedin.com/in/joshua-willie-3920181b9)
+
+---
+
+## 🧰 Tech
+
+**Languages:** TypeScript · JavaScript · Rust · Go · Python · SQL
+**Frontend:** React · Next.js · Tailwind CSS
+**Backend:** Node.js · PostgreSQL · Prisma · Redis
+**Cloud & Infra:** AWS (Lambda, SAM, DynamoDB, EventBridge, STS) · Docker · GitHub Actions · Linux
+**Web3:** Rust smart-contract development · Solidity · ZK proofs (Circom, Noir) *— actively building*
+
+---
+
+## 🚀 Featured projects
+
+### [Sluice](https://github.com/JoshBlazer/sluice) — Distributed job scheduler
+`Go · PostgreSQL · Redis · etcd`
+Horizontally scalable, durable scheduler with at-least-once delivery and idempotency keys. PostgreSQL as the durable source of truth with a Redis hot path; leader election via etcd for high availability. Instrumented with Prometheus metrics and OpenTelemetry traces. Designed for **10k+ jobs/sec** on commodity hardware.
+
+### [Cloud Shield](https://github.com/JoshBlazer/cloud-shield) — Serverless cloud-security posture manager (CSPM)
+`Python · AWS SAM · Lambda · DynamoDB`
+Continuously audits AWS accounts against security policies on an hourly schedule. Assumes read-only roles into member accounts via STS for multi-account coverage; tracks every finding through a full lifecycle (acknowledge / snooze / exempt / resolve) with an append-only audit trail. Run-over-run diffing distinguishes new, regressed, and exempted findings. **104 passing tests.**
+
+### [Velora](https://github.com/JoshBlazer/velora) — Kanban board app
+`Next.js · Prisma · NextAuth · PostgreSQL`
+Drag-and-drop board with label and priority management, plus full credential auth including email verification and password-reset flows.
+
+### [Best Secondary](https://github.com/JoshBlazer/best-secondary) — Educational platform
+`Next.js · TypeScript · Tailwind CSS`
+Educational web platform for secondary-school students — designed, built, and deployed to production.
+
+---
+
+*Currently a B.Tech Software Engineering student at FUTA (Federal University of Technology, Akure), shipping production work alongside my degree.*
